@@ -24,7 +24,6 @@ Here’s how you might use these endpoints in your app (JavaScript / fetch examp
 fetch("https://openapi.programming-hero.com/api/all")
 
   .then((res) => res.json())
-  
   .then((data) => console.log(data));
   
 
@@ -33,7 +32,6 @@ fetch("https://openapi.programming-hero.com/api/all")
 fetch("https://openapi.programming-hero.com/api/alpha/116")
 
   .then((res) => res.json())
-  
   .then((data) => console.log(data));
   
 
@@ -43,7 +41,6 @@ fetch("https://openapi.programming-hero.com/api/alpha/116")
 fetch("https://openapi.programming-hero.com/api/lang/english")
 
   .then((res) => res.json())
-  
   .then((data) => console.log(data));
   
 
@@ -51,7 +48,6 @@ fetch("https://openapi.programming-hero.com/api/lang/english")
 
 fetch("https://openapi.programming-hero.com/api/name/bangladesh")
 
-  .then((res) => res.json())
-  
+  .then((res) => res.json()) 
   .then((data) => console.log(data));
  
