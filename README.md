@@ -32,6 +32,7 @@ fetch("https://openapi.programming-hero.com/api/all")
 fetch("https://openapi.programming-hero.com/api/alpha/116")
 
   .then((res) => res.json())
+ 
   .then((data) => console.log(data));
   
 
