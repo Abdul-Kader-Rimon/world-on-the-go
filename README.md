@@ -22,7 +22,6 @@ Here’s how you might use these endpoints in your app (JavaScript / fetch examp
 // Fetch all countries
 
 fetch("https://openapi.programming-hero.com/api/all")
-
   .then((res) => res.json())
   .then((data) => console.log(data));
   
@@ -30,9 +29,7 @@ fetch("https://openapi.programming-hero.com/api/all")
 // Fetch country by ISO code
 
 fetch("https://openapi.programming-hero.com/api/alpha/116")
-
   .then((res) => res.json())
- 
   .then((data) => console.log(data));
   
 
@@ -40,7 +37,6 @@ fetch("https://openapi.programming-hero.com/api/alpha/116")
 // Fetch countries by language
 
 fetch("https://openapi.programming-hero.com/api/lang/english")
-
   .then((res) => res.json())
   .then((data) => console.log(data));
   
@@ -48,7 +44,6 @@ fetch("https://openapi.programming-hero.com/api/lang/english")
 // Fetch country by name
 
 fetch("https://openapi.programming-hero.com/api/name/bangladesh")
-
   .then((res) => res.json()) 
   .then((data) => console.log(data));
  
